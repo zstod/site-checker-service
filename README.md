@@ -5,7 +5,7 @@
 # Как запустить
 
 # 1. Клонируем репозиторий
-git clone [https://github.com/zstod/site-checker-service
+git clone https://github.com/zstod/site-checker-service
 
 # 2. Создаем конфиг из шаблона (для локалхоста можно ничего не менять внутри)
 cp .env.example .env
