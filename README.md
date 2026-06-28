@@ -4,13 +4,13 @@
 
 # Как запустить
 
-# 1. Клонируем репозиторий
+ 1. Клонируем репозиторий
 git clone https://github.com/zstod/site-checker-service
 
-# 2. Создаем конфиг из шаблона (для локалхоста можно ничего не менять внутри)
+ 2. Создаем конфиг из шаблона (для локалхоста можно ничего не менять внутри)
 cp .env.example .env
 
-# 3. Поднимаем проект
+ 3. Поднимаем проект
 docker-compose up -d --build
 
 После запуска API Swagger будут доступны по адресу: http://localhost:8000/docs
@@ -18,7 +18,7 @@ docker-compose up -d --build
 
 
 
- Стек технологий
+# Стек технологий
 Backend: Python 3.14+, FastAPI, SQLModel
 
 Database: PostgreSQL
@@ -29,7 +29,7 @@ Auth: JWT, bcrypt
 
 Infra: Docker, Docker Compose
 
-Что реализовано
+# Что реализовано
 Регистрация и JWT-авторизация пользователей
 
 CRUD-операции для добавления сайтов в систему мониторинга
